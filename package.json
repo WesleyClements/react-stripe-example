@@ -1,0 +1,28 @@
+{
+  "name": "react-stripe-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyClements/react-stripe-example.git"
+  },
+  "keywords": [],
+  "author": "Wesley Clements <wesley.clements@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesleyClements/react-stripe-example/issues"
+  },
+  "homepage": "https://github.com/WesleyClements/react-stripe-example#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1"
+  }
+}
